@@ -14,11 +14,11 @@
 !!! this App is just a simple implementation of the test so issues like database connection , CRUD impelementation , data validation ,  advance error prevention , etc... is overlooked
   
 ## Available api endpoints
-  "/": lists all products 
-  "/{consumption}": lists all products with annual consumption 
-    (you can set query params for [sortby:[tariffName,annualCost], sortorder:[asc,dec]] default is the asending order of annualCost)
-    (for simple view you can set query params view=html)
+  - "/": lists all products 
+  - "/{consumption}": lists all products with annual consumption 
+  - (you can set query params for [sortby:[tariffName,annualCost], sortorder:[asc,dec]] default is the asending order of annualCost)
+  - (for simple view you can set query params view=html)
   
-  "/products/{id}": will return product info by id:[1,2],
-  "/products/{id}/annualcost/{consumption}" : will return product info with annual cost for certain product
+  - "/products/{id}": will return product info by id:[1,2],
+  - "/products/{id}/annualcost/{consumption}" : will return product info with annual cost for certain product
 
