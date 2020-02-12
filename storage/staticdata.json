@@ -1,0 +1,26 @@
+[
+  {
+    "id":1,
+    "name": "basic electricity tariff",
+    "costDuration":"month",
+    "usageRate":"kWh",
+    "currency": "€",
+    "baseCost":5,
+    "minCost" : null,
+    "minCostUsage":null,
+    "minCostDuration":null,
+    "consumptionCost": 0.22
+  },
+  {
+    "id": 2,
+    "name": "Packaged tariff",
+    "costDuration":"month",
+    "usageRate":"kWh",
+    "currency": "€",
+    "baseCost":0,
+    "minCost" : 800,
+    "minCostUsage":4000,
+    "minCostDuration":12,
+    "consumptionCost": 0.30
+  }
+]
