@@ -4,11 +4,12 @@
   - run "npm install" on package root folder
   - run "npm start" to start the server
   - run "npm test" for simple test usecase
-  ! all endpoints will result in json objects
-  ! you can define env variables in ./config/env.js file
-  ! data is stored statically in ./storage/staticdata.json file
-  ! you can change the datasources and adapters in ./adapter folder
-  ! simple tests where implemented to show the use case
+  -
+  -! all endpoints will result in json objects
+  -! you can define env variables in ./config/env.js file
+  -! data is stored statically in ./storage/staticdata.json file
+  -! you can change the datasources and adapters in ./adapter folder
+  -! simple tests where implemented to show the use case
 
 !!! this App is just a simple implementation of the test so issues like database connection , CRUD impelementation , data validation ,  advance error prevention , etc... is overlooked
   
